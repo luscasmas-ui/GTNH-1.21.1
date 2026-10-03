@@ -1,0 +1,179 @@
+EV
+
+Purpose
+
+EV (Extreme Voltage) is the fourth major electrical technology tier.
+
+The player transitions from advanced industrial production to extreme-scale electrical infrastructure.
+
+EV introduces significantly higher power requirements, advanced materials, complex chemical processing, high-throughput machinery, and production chains that require multiple interconnected industrial systems.
+
+At this stage, the factory should begin operating as a large industrial complex rather than a collection of individual production lines.
+
+Resources
+
+EV primarily uses:
+
+Steel
+Aluminium
+Titanium
+Tungsten
+Chrome
+Nickel
+Cobalt
+Platinum
+Gold
+Copper
+Advanced alloys
+Rare industrial materials
+Other materials required for extreme-voltage infrastructure
+
+Higher-tier materials remain restricted until their respective technological stages.
+
+Tools
+
+EV introduces advanced industrial tools and equipment.
+
+These tools should provide substantial improvements to construction, resource gathering, and industrial maintenance.
+
+EV equipment should support large-scale industrial development without providing capabilities intended for IV and later tiers.
+
+Processing
+
+EV introduces highly complex multi-stage processing.
+
+Production chains should increasingly require:
+
+Advanced ore processing
+Chemical processing
+Advanced alloy production
+Material purification
+Specialized industrial components
+High-tier machine components
+Multi-stage chemical chains
+
+Processing should require multiple specialized machines working together.
+
+The player should increasingly rely on dedicated production facilities rather than general-purpose machines.
+
+Machines
+
+EV introduces high-performance industrial machinery.
+
+Machines should provide:
+
+Extreme-throughput material processing
+Advanced chemical processing
+Advanced alloy production
+High-tier component manufacturing
+Specialized material refinement
+Large-scale industrial processing
+Advanced automation
+
+EV machinery should have significantly higher power requirements than HV machinery.
+
+Power
+
+Extreme Voltage becomes the primary power infrastructure.
+
+The player must establish:
+
+High-capacity power generation
+Extreme-voltage distribution
+Large-scale power storage
+Reliable industrial power networks
+Power infrastructure capable of supporting multiple EV machines simultaneously
+
+Power generation and distribution should become a major engineering challenge.
+
+Large production facilities should require dedicated power infrastructure.
+
+Automation
+
+EV introduces highly automated industrial production.
+
+The player should be able to operate:
+
+Large parallel production lines
+Fully automated multi-stage processing
+Advanced chemical factories
+Automated alloy production
+High-throughput material refinement
+Large logistics networks
+Automated component manufacturing
+
+Automation should now be essential for progression.
+
+The quantities of materials required by EV should make manual production impractical.
+
+Create Integration
+
+Create continues to provide mechanical and logistical infrastructure.
+
+Create should primarily support:
+
+Factory logistics
+Large-scale material transportation
+Mechanical automation
+Material handling
+Specialized mechanical processing
+Industrial infrastructure
+
+Create must not bypass EV technological requirements.
+
+GregTech Integration
+
+GregTech remains the primary technological progression system.
+
+EV introduces advanced GregTech materials, machines, components, and processing chains.
+
+GregTech progression should require complex industrial infrastructure and specialized production facilities.
+
+EV production should prepare the player for the transition toward IV.
+
+Modern Industrialization Integration
+
+Modern Industrialization provides additional EV machinery and advanced processing capabilities.
+
+Its systems should be integrated into the same technological progression and used for specialized production chains.
+
+Modern Industrialization must not create an independent progression route that bypasses EV requirements.
+
+Mekanism Integration
+
+Mekanism provides advanced processing and industrial utility during EV.
+
+Its machines may be integrated into specialized production chains but must remain subject to the same technological progression.
+
+Mekanism must not provide unrestricted access to higher-tier processing or power systems.
+
+Requirements
+
+The player must complete HV before entering EV.
+
+The player should have:
+
+Established reliable HV electrical infrastructure
+Automated essential HV production chains
+Produced the components required for EV machinery
+Established access to EV-tier materials
+Built sufficient power generation and distribution infrastructure
+Established advanced chemical and material processing
+Automated the production of essential industrial components
+
+Exit Condition
+
+EV ends when the player has established an industrial complex capable of supporting the significantly greater complexity and power requirements of IV.
+
+The player must:
+
+Establish reliable EV power infrastructure
+Automate essential EV production chains
+Complete advanced chemical and material processing
+Produce the components required for IV machinery
+Establish the infrastructure necessary for IV production
+Complete the required EV production chains
+
+Completion of these requirements unlocks IV.
+
+The EV stage should leave the player with a highly automated industrial complex capable of supporting multiple advanced production chains simultaneously.
