@@ -1,0 +1,277 @@
+Recipe Changes
+
+Purpose
+
+Recipe changes are used to enforce the progression defined by the pack.
+
+Recipes should create meaningful technological requirements rather than simply increasing crafting costs.
+
+Every major recipe change must have a reason connected to progression, integration, automation, resource management, or technological advancement.
+
+Recipe Philosophy
+
+Recipes should represent technological development.
+
+Early recipes should remain simple and accessible.
+
+As progression advances, recipes should become increasingly dependent on:
+
+Advanced materials
+
+Industrial processing
+
+Specialized machines
+
+Power infrastructure
+
+Cross-mod components
+
+Automation
+
+Higher technological tiers
+
+Recipe complexity should create a reason to build infrastructure.
+
+Recipes should not become complicated only for the sake of being complicated.
+
+Starting Point Recipes
+
+Vanilla progression remains available at the beginning of the game.
+
+Basic tools, weapons, armor, furnaces, crafting tables, and other fundamental survival equipment should remain accessible.
+
+Modded technology should not be immediately available.
+
+The first technological recipes should introduce the Primitive Age.
+
+Primitive Age Recipes
+
+Primitive recipes introduce the first technological components.
+
+Recipes should require basic processed materials and primitive industrial infrastructure.
+
+The Primitive Age should establish the resources and components required to enter the Steam Age.
+
+Steam Age Recipes
+
+Steam Age recipes introduce the first major industrial systems.
+
+Steam-powered machines, Create infrastructure, GregTech components, and Modern Industrialization systems should begin interacting.
+
+Steam should become the primary solution for early industrial production.
+
+LV Recipes
+
+LV recipes introduce electrical technology.
+
+LV machines and components should require materials and infrastructure established during the Steam Age.
+
+Electrical infrastructure should become necessary for continued progression.
+
+MV Recipes
+
+MV recipes should require LV progression and increasingly advanced materials.
+
+Recipes should introduce more complex processing chains and larger production requirements.
+
+HV Recipes
+
+HV recipes should represent a significant increase in industrial scale.
+
+Recipes should require advanced materials, complex processing, and stable MV infrastructure.
+
+Automation should become increasingly important.
+
+EV Recipes
+
+EV recipes should require advanced industrial materials, chemical processing, and HV infrastructure.
+
+EV components should require multiple stages of production.
+
+Recipes should encourage large-scale automated factories.
+
+IV Recipes
+
+IV recipes should require EV infrastructure and extremely advanced materials.
+
+Complex components should combine materials and processing systems from multiple mods.
+
+IV should represent a major increase in industrial complexity.
+
+LuV Recipes
+
+LuV recipes should require IV progression and advanced industrial infrastructure.
+
+Recipes should introduce extremely advanced materials, components, and processing chains.
+
+Automation should be strongly encouraged.
+
+ZPM Recipes
+
+ZPM recipes should require LuV progression.
+
+Recipes should represent extremely advanced technology and require substantial industrial infrastructure.
+
+Production should generally be automated before large-scale ZPM progression.
+
+UV Recipes
+
+UV recipes should require ZPM progression and extreme industrial infrastructure.
+
+Recipes should require advanced materials, complex processing, and very high power capacity.
+
+UV should represent the highest levels of conventional industrial technology.
+
+UHV Recipes
+
+UHV recipes should require UV progression.
+
+Recipes should represent the extreme end of conventional industrial development.
+
+Production should require highly optimized factories, advanced logistics, enormous power infrastructure, and complex multi-stage processing.
+
+Cross-Mod Recipes
+
+Important components should sometimes combine systems from different mods.
+
+Examples include:
+
+GregTech materials processed through Modern Industrialization
+
+Mekanism chemical processing used for advanced components
+
+Create machinery used for mechanical processing
+
+AE2 components used for advanced logistics
+
+Create Aeronautics components requiring industrial materials
+
+Create Big Cannons components requiring advanced manufacturing
+
+Cross-mod recipes must have a clear progression purpose.
+
+They should not exist only to increase crafting difficulty.
+
+GregTech Recipe Integration
+
+GregTech recipes should remain the primary structure for technological progression.
+
+Where necessary, existing GregTech recipes may be modified to connect them with other systems.
+
+Higher-tier components should require appropriate previous-tier infrastructure.
+
+Modern Industrialization Recipe Integration
+
+Modern Industrialization recipes should be integrated into the main progression.
+
+MI machines and components should use appropriate materials and technological requirements.
+
+MI must not create an alternative route that bypasses GregTech progression.
+
+Create Recipe Integration
+
+Create recipes should be modified when necessary to connect mechanical technology with industrial progression.
+
+Create should remain useful for mechanical automation, logistics, transportation, and specialized processing.
+
+Create recipes should not provide unintended shortcuts to advanced industrial materials.
+
+Mekanism Recipe Integration
+
+Mekanism recipes should be integrated with the technological progression.
+
+Advanced Mekanism systems may require materials and components from higher industrial tiers.
+
+Mekanism should remain valuable for chemical processing and specialized industrial systems without replacing the main progression.
+
+AE2 Recipe Integration
+
+AE2 progression should be gated appropriately.
+
+Advanced storage, crafting, automation, and logistics components should require suitable technological infrastructure.
+
+AE2 should simplify logistics rather than simplify the technological progression itself.
+
+Progression-Breaking Recipes
+
+Recipes that bypass progression must be removed or modified.
+
+Examples include:
+
+Early access to advanced materials
+
+Early access to high-tier machines
+
+Alternative recipes that bypass required processing
+
+Cheap access to advanced power systems
+
+Recipes that bypass technological tiers
+
+Recipes that provide endgame materials too early
+
+Recipes that allow one mod to completely replace another mod's intended progression role
+
+The goal is not to remove useful alternatives.
+
+The goal is to prevent unintended progression shortcuts.
+
+Recipe Scaling
+
+Recipe difficulty should increase alongside technological progression.
+
+Higher-tier recipes may require:
+
+More materials
+
+More processing stages
+
+More advanced machines
+
+Higher-tier components
+
+Cross-mod components
+
+Greater power requirements
+
+Automated production
+
+However, material quantity alone should not be the primary method of increasing difficulty.
+
+Automation should become the intended solution to large production requirements.
+
+Endgame Recipes
+
+Endgame recipes should require extensive infrastructure.
+
+Advanced components should combine multiple technological systems.
+
+Post-endgame recipes should require resources and infrastructure accumulated throughout the entire progression.
+
+ProjectE and Avaritia recipes should represent major progression milestones rather than ordinary crafting recipes.
+
+Implementation
+
+Recipe modifications will be implemented primarily through KubeJS.
+
+Recipes will be organized according to progression tiers and technological systems.
+
+Recipe changes should be documented so that the GuideME handbook can explain important progression requirements.
+
+All custom recipes should be tested for:
+
+Correct progression requirements
+
+Correct materials
+
+Correct machine requirements
+
+Correct power requirements
+
+Correct cross-mod dependencies
+
+Compatibility with automation
+
+Compatibility with multiplayer
+
+No unintended progression shortcuts
