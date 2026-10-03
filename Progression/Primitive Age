@@ -1,0 +1,59 @@
+ Primitive Age
+
+ Purpose
+
+The Primitive Age is the transition between vanilla survival and industrialization.
+
+The player begins working with basic industrial materials and primitive processing systems while preparing the infrastructure required for the Steam Age.
+
+The Primitive Age should gradually move the player away from purely vanilla progression without immediately introducing advanced automation or power systems.
+
+ Resources
+
+Define the resources required for the Primitive Age.
+
+* Copper
+* Tin
+* Zinc
+* Iron
+* Coal
+* Redstone
+* Other required materials
+
+ Tools
+
+Define the tools available during the Primitive Age.
+
+Primitive tools should improve upon basic vanilla infrastructure without providing access to higher-tier industrial equipment.
+
+ Processing
+
+Define how raw resources are processed during the Primitive Age.
+
+Processing should remain relatively manual or limited in automation.
+
+The Primitive Age should establish the basic material-processing chains required for the Steam Age.
+
+ Machines
+
+Define the first machines available during the Primitive Age.
+
+Machines should provide basic processing capabilities while remaining significantly below Steam-tier automation.
+
+ Automation
+
+Automation should be limited during the Primitive Age.
+
+The player should still perform a significant amount of processing manually and build the infrastructure necessary for future automation.
+
+ Requirements
+
+Define the requirements for entering the Primitive Age.
+
+The player should first establish a stable vanilla foundation before beginning Primitive progression.
+
+ Exit Condition
+
+The Primitive Age ends when the player has acquired the materials, infrastructure, and knowledge required to begin the Steam Age.
+
+The final objective of the Primitive Age is to prepare the player for the first Steam-powered industrial systems.
