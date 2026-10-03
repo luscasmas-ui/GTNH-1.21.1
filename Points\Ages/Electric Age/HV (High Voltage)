@@ -1,0 +1,182 @@
+HV
+
+Purpose
+
+HV (High Voltage) is the third major electrical technology tier.
+
+The player transitions from medium-scale industrial production to high-capacity industrial infrastructure.
+
+HV introduces significantly more powerful machinery, advanced material processing, complex production chains, and industrial systems capable of supporting large-scale factories.
+
+The player should no longer be building individual production systems. They should be designing an interconnected industrial complex.
+
+Resources
+
+HV primarily uses:
+
+Steel
+Aluminium
+Copper
+Gold
+Silver
+Lead
+Nickel
+Chrome
+Titanium
+Redstone
+Rubber
+Advanced alloys
+Other materials required for high-voltage infrastructure
+
+Higher-tier materials remain restricted until their respective technological stages.
+
+Tools
+
+HV introduces advanced industrial tools and equipment.
+
+These tools should provide substantial improvements to resource gathering, construction, and industrial maintenance.
+
+HV equipment should be powerful enough to support large-scale factory construction while remaining below the capabilities of higher technological tiers.
+
+Processing
+
+HV introduces advanced and highly interconnected processing chains.
+
+Production should increasingly require:
+
+Raw material processing
+Ore refinement
+Chemical processing
+Alloy production
+Advanced component manufacturing
+Multi-stage material processing
+High-tier machine components
+
+HV processing should require multiple machines operating together.
+
+Production chains should become substantially more efficient than MV while also requiring significantly more infrastructure.
+
+Machines
+
+HV introduces high-capacity industrial machinery.
+
+Machines should provide:
+
+Advanced ore processing
+High-throughput material processing
+Advanced chemical processing
+Alloy production
+Advanced component manufacturing
+Large-scale industrial processing
+High-capacity automation
+
+HV machines should represent a significant increase in both power consumption and production capacity.
+
+Higher-tier machinery remains locked.
+
+Power
+
+High Voltage becomes the primary power infrastructure for large-scale industry.
+
+The player must establish:
+
+High-capacity power generation
+High-voltage distribution
+Industrial power storage
+Large electrical networks
+Reliable power infrastructure
+Sufficient generation capacity for multiple high-power machines
+
+Power generation should become one of the major infrastructure challenges of HV.
+
+Large factories should require deliberate power planning and expansion.
+
+Automation
+
+HV introduces large-scale industrial automation.
+
+The player should be able to operate:
+
+Large parallel production lines
+Complex multi-stage factories
+Automated alloy production
+Automated chemical processing
+High-throughput material processing
+Large logistics networks
+Automated component production
+Continuous industrial production
+
+At this stage, automation should be considered essential.
+
+Manual crafting should become increasingly impractical for the quantities required by HV progression.
+
+Create Integration
+
+Create continues to provide mechanical and logistical infrastructure.
+
+Create should primarily support:
+
+Factory logistics
+Mechanical transportation
+Large-scale material handling
+Specialized mechanical processing
+Mechanical automation
+Factory infrastructure
+
+Create may interact with HV systems but must not provide a shortcut around HV technological requirements.
+
+GregTech Integration
+
+GregTech remains the primary technological progression system.
+
+HV introduces advanced GregTech machinery, materials, alloys, and processing chains.
+
+The progression should require increasingly complex production infrastructure and increasingly specialized materials.
+
+HV should begin preparing the player for the transition toward EV.
+
+Modern Industrialization Integration
+
+Modern Industrialization provides additional HV machinery and advanced processing systems.
+
+Its machines should be integrated into the same progression and used for specialized or complementary production chains.
+
+Modern Industrialization must not create an independent progression route that bypasses HV requirements.
+
+Mekanism Integration
+
+Mekanism becomes increasingly important as a supporting industrial system during HV.
+
+Its advanced processing and utility systems may be integrated into HV production chains where appropriate.
+
+Mekanism systems must remain synchronized with the progression of the pack and must not provide unrestricted access to higher-tier technologies.
+
+Requirements
+
+The player must complete MV before entering HV.
+
+The player should have:
+
+Established reliable MV electrical infrastructure
+Automated essential MV production chains
+Produced the components required for HV machinery
+Established access to HV-tier materials
+Built sufficient power generation and distribution infrastructure
+Established automated production of essential industrial components
+
+Exit Condition
+
+HV ends when the player has established a high-capacity industrial complex capable of supporting the substantially greater power and processing requirements of EV.
+
+The player must:
+
+Establish reliable HV power infrastructure
+Automate essential HV production chains
+Complete advanced material and chemical processing chains
+Produce the components required for EV machinery
+Establish the infrastructure necessary for higher-voltage production
+Complete the required HV production chains
+
+Completion of these requirements unlocks EV.
+
+The HV stage should leave the player with a mature, highly automated industrial complex capable of supporting multiple large-scale production chains simultaneously.
