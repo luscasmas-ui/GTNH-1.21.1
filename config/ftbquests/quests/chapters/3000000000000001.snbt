@@ -1,0 +1,24 @@
+{
+  filename: "3000000000000001"
+  group: "3D4E5F60718293A4"
+  icon: { id: "projecte:transmutation_table" }
+  id: "3000000000000001"
+  order_index: 0
+  quests: [
+    {
+      id: "AG0000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BG0000000000001" type: "item" item: { id: "projecte:transmutation_table" } }]
+      rewards: [{ id: "CG0000000000001" type: "xp" xp: 10000 }]
+    }
+    {
+      id: "AG0000000000002"
+      dependencies: ["AG0000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "BG0000000000002" type: "checkmark" }]
+      rewards: [{ id: "CG0000000000002" type: "xp" xp: 15000 }]
+    }
+  ]
+}
