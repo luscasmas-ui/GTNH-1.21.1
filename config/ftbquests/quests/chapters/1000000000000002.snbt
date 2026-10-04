@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000002"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "minecraft:flint" }
+  id: "1000000000000002"
+  order_index: 1
+  quests: [
+    {
+      id: "A200000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "B200000000000001" type: "item" item: { id: "kubejs:primitive_engineering_kit" } }]
+      rewards: [{ id: "C200000000000001" type: "xp" xp: 100 }]
+    }
+    {
+      id: "A200000000000002"
+      dependencies: ["A200000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "B200000000000002" type: "item" item: { id: "kubejs:steam_engineering_core" } }]
+      rewards: [{ id: "C200000000000002" type: "xp" xp: 150 }]
+    }
+  ]
+}
