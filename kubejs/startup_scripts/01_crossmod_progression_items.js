@@ -11,7 +11,7 @@ StartupEvents.registry('item', event => {
     .tooltip('§bCore component for advanced ME infrastructure');
 
   event.create('arcane_machine_core')
-    .texture('minecraft:item:amethyst_shard')
+    .texture('minecraft:item/amethyst_shard')
     .tooltip('§5Core component for Arcane progression');
 
   event.create('spirit_machine_core')
