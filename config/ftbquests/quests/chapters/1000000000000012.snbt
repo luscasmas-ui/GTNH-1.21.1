@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000012"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "gtceu:uhv_machine_hull" }
+  id: "1000000000000012"
+  order_index: 11
+  quests: [
+    {
+      id: "AC0000000000012"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BC0000000000012" type: "item" item: { id: "gtceu:uhv_machine_hull" } }]
+      rewards: [{ id: "CC0000000000012" type: "xp" xp: 5000 }]
+    }
+    {
+      id: "AC0000000000013"
+      dependencies: ["AC0000000000012"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "BC0000000000013" type: "item" item: { id: "kubejs:uhv_machine_core" } }]
+      rewards: [{ id: "CC0000000000013" type: "xp" xp: 6000 }]
+    }
+  ]
+}
