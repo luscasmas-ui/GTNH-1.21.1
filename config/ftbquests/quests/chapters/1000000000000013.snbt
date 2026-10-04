@@ -1,0 +1,16 @@
+{
+  filename: "1000000000000013"
+  group: "3D4E5F60718293A4"
+  icon: { id: "minecraft:nether_star" }
+  id: "1000000000000013"
+  order_index: 12
+  quests: [
+    {
+      id: "AD0000000000013"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BD0000000000013" type: "checkmark" }]
+      rewards: [{ id: "CD0000000000013" type: "xp" xp: 10000 }]
+    }
+  ]
+}
