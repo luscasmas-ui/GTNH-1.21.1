@@ -1,0 +1,20 @@
+{
+  id: "9A7C01D4E5F6A8B2"
+  groups: [
+    {
+      id: "1B2C3D4E5F607182"
+      order_index: 0
+      title: "Main Progression"
+    }
+    {
+      id: "2C3D4E5F60718293"
+      order_index: 1
+      title: "Independent Systems"
+    }
+    {
+      id: "3D4E5F60718293A4"
+      order_index: 2
+      title: "Post-Endgame"
+    }
+  ]
+}
