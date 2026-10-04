@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000004"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "gtceu:lv_machine_hull" }
+  id: "1000000000000004"
+  order_index: 3
+  quests: [
+    {
+      id: "A400000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "B400000000000001" type: "item" item: { id: "gtceu:lv_machine_hull" } }]
+      rewards: [{ id: "C400000000000001" type: "xp" xp: 500 }]
+    }
+    {
+      id: "A400000000000002"
+      dependencies: ["A400000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "B400000000000002" type: "item" item: { id: "gtceu:basic_electronic_circuit" } }]
+      rewards: [{ id: "C400000000000002" type: "xp" xp: 750 }]
+    }
+  ]
+}
