@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000003"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "create:mechanical_press" }
+  id: "1000000000000003"
+  order_index: 2
+  quests: [
+    {
+      id: "A300000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "B300000000000001" type: "item" item: { id: "create:mechanical_press" } }]
+      rewards: [{ id: "C300000000000001" type: "xp" xp: 250 }]
+    }
+    {
+      id: "A300000000000002"
+      dependencies: ["A300000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "B300000000000002" type: "item" item: { id: "kubejs:steam_engineering_core" } }]
+      rewards: [{ id: "C300000000000002" type: "item" item: { id: "minecraft:redstone", count: 8 } }]
+    }
+  ]
+}
