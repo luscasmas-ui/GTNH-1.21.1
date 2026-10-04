@@ -58,7 +58,9 @@ Mechanical Press, Mechanical Mixer, Deployer, Mechanical Saw, Mechanical Drill, 
 Steam → LV is implemented in KubeJS.
 LV now requires GT steel, the Steam Engineering Core, a dedicated LV Machine Core, and a real GregTech Circuit Assembler recipe for Basic Electronic Circuits.
 
-The remaining electrical tiers are structurally defined but still require concrete recipe implementation.
+MV, HV, and EV are now implemented in KubeJS as explicit electrical progression gates.
+MV requires aluminium, wrought iron, and a dedicated MV Machine Core; HV requires stainless steel, titanium, and a dedicated HV Machine Core; EV requires titanium, polyethylene, and a dedicated EV Machine Core.
+Each tier replaces the stock GTCEu Machine Hull recipe so the tier transition is explicit.
 Mekanism and AE2 integration remain intentionally gated until the electrical backbone is established.
 
 Quest System
