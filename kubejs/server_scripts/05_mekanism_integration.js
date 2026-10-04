@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
   ], {
     S: 'gtceu:steel_plate',
     C: 'gtceu:good_electronic_circuit',
-    A: 'minecraft:alloy',
+    A: 'minecraft:redstone',
     E: 'kubejs:lv_machine_core'
   });
 
