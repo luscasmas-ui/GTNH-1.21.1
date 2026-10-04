@@ -29,17 +29,19 @@ ServerEvents.recipes(event => {
   });
 
   // Mechanical Press becomes the first explicitly gated Steam-era machine.
-  // The vanilla Create recipe is replaced instead of simply inflated.
+  // The default Create recipe is replaced by a recipe that requires
+  // the Steam Engineering Core.
   event.remove({ output: 'create:mechanical_press' });
 
   event.shaped('create:mechanical_press', [
-    'CIC',
-    'ASA',
+    'CPC',
+    'IAI',
     'SIS'
   ], {
     C: 'create:cogwheel',
-    I: 'minecraft:iron_block',
+    P: 'kubejs:steam_engineering_core',
+    I: 'minecraft:iron_ingot',
     A: 'create:andesite_casing',
     S: 'create:shaft'
-  }).replaceIngredient('minecraft:iron_block', 'kubejs:steam_engineering_core');
+  });
 });
