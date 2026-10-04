@@ -1,0 +1,24 @@
+{
+  filename: "2000000000000002"
+  group: "2C3D4E5F60718293"
+  icon: { id: "apotheosis:gem" }
+  id: "2000000000000002"
+  order_index: 1
+  quests: [
+    {
+      id: "AF0000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BF0000000000001" type: "checkmark" }]
+      rewards: [{ id: "CF0000000000001" type: "xp" xp: 2000 }]
+    }
+    {
+      id: "AF0000000000002"
+      dependencies: ["AF0000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "BF0000000000002" type: "checkmark" }]
+      rewards: [{ id: "CF0000000000002" type: "xp" xp: 3000 }]
+    }
+  ]
+}
