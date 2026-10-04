@@ -1,0 +1,24 @@
+{
+  filename: "3000000000000002"
+  group: "3D4E5F60718293A4"
+  icon: { id: "avaritia:extreme_crafting_table" }
+  id: "3000000000000002"
+  order_index: 1
+  quests: [
+    {
+      id: "AH0000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BH0000000000001" type: "item" item: { id: "avaritia:extreme_crafting_table" } }]
+      rewards: [{ id: "CH0000000000001" type: "xp" xp: 25000 }]
+    }
+    {
+      id: "AH0000000000002"
+      dependencies: ["AH0000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "BH0000000000002" type: "item" item: { id: "avaritia:infinity_ingot" } }]
+      rewards: [{ id: "CH0000000000002" type: "xp" xp: 50000 }]
+    }
+  ]
+}
