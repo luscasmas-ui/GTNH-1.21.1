@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000008"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "gtceu:iv_machine_hull" }
+  id: "1000000000000008"
+  order_index: 7
+  quests: [
+    {
+      id: "A800000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "B800000000000001" type: "item" item: { id: "gtceu:iv_machine_hull" } }]
+      rewards: [{ id: "C800000000000001" type: "xp" xp: 2500 }]
+    }
+    {
+      id: "A800000000000002"
+      dependencies: ["A800000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "B800000000000002" type: "item" item: { id: "kubejs:iv_machine_core" } }]
+      rewards: [{ id: "C800000000000002" type: "xp" xp: 2750 }]
+    }
+  ]
+}
