@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     'UHU',
     'NQN'
   ], {
-    N: '#forge:plates:neutronium',
+    N: '#forge:plates/neutronium',
     Q: 'gtceu:quantum_star',
     U: 'gtceu:uv_machine_hull',
     H: 'minecraft:nether_star'
