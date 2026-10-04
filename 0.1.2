@@ -45,9 +45,9 @@ Recipe Changes
 [x] Integrate GregTech recipes
 [x] Integrate Modern Industrialization recipes
 [x] Integrate Create recipes
-[ ] Integrate Mekanism recipes
-[ ] Integrate AE2 recipes
-[ ] Remove progression-breaking recipes
+[x] Integrate Mekanism recipes
+[x] Integrate AE2 recipes
+[x] Remove progression-breaking recipes
 
 Current implementation status
 
@@ -70,13 +70,13 @@ Mekanism and AE2 integration remain intentionally gated until the electrical bac
 Quest System
 
 [x] Choose the quest system
-[ ] Create the first quest chapter
-[ ] Create progression chapters
+[x] Create the first quest chapter
+[x] Create progression chapters
 
 Magic Progression
 
 [x] Define the role of magic in the progression
-[ ] Choose the main magic mods
+[x] Choose the main magic mods
 [x] Define the starting point of the magic progression
 [x] Define magical resources
 [x] Define magical machines and systems
@@ -86,8 +86,8 @@ Magic Progression
 [x] Integrate magic with technology
 [x] Prevent magic from bypassing industrial progression
 [x] Create cross-mod magical recipes
-[ ] Create magic-related quests
-[ ] Create the magic section of the handbook
+[x] Create magic-related quests
+[x] Create the magic section of the handbook
 [x] Define magical endgame content
 
 Apotheosis Integration
@@ -120,7 +120,7 @@ ProjectE Integration
 [x] Gate EMC generation
 [x] Gate Energy Condensers
 [x] Balance EMC values
-[ ] Create ProjectE quests
+[x] Create ProjectE quests
 [x] Add ProjectE documentation to the handbook
 [x] Define ProjectE post-endgame progression
 [x] Define the final ProjectE milestone
@@ -142,7 +142,22 @@ Avaritia Integration
 [x] Balance Neutronium progression
 [x] Balance Infinity progression
 [x] Prevent early access to Avaritia equipment
-[ ] Create Avaritia quests
+[x] Create Avaritia quests
 [x] Add Avaritia documentation to the handbook
 [x] Define final crafting goals
 [x] Define the final progression milestone
+
+
+Completed implementation in 0.1.2
+
+Mekanism integration is implemented in KubeJS with explicit electrical-tier gates for its core processing machines.
+AE2 integration is implemented in KubeJS with gated digital logistics, machine infrastructure, and storage-cell milestones.
+Progression-breaking stock recipes targeted by the pack's integrated systems are removed and replaced by gated recipes.
+
+FTB Quests is the selected quest system. Main progression chapters now cover Starting Point, Primitive, Steam, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, and Post-Endgame, with dedicated Magic, Apotheosis, ProjectE, and Avaritia chapters.
+
+The main magic stack is Ars Nouveau + Malum for 1.21.1 NeoForge. A dedicated magic chapter and bilingual chapter labels are included.
+
+ProjectE and Avaritia each now have dedicated quest chapters covering their post-endgame milestones.
+
+0.1.2 checklist is complete. Remaining work is validation, balancing, dependency/version pinning, and expansion of quest/handbook detail rather than missing checklist items.
