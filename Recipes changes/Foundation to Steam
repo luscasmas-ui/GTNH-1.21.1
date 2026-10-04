@@ -1,0 +1,83 @@
+Foundation → Steam Recipe Matrix
+
+Purpose
+
+This document defines the first concrete recipe layer of the pack.
+
+The Foundation phase preserves vanilla survival while preparing the player for industrial progression.
+
+The Primitive Age introduces the first processed industrial materials.
+
+The Steam Age introduces the first real industrial infrastructure.
+
+Rules
+
+Vanilla survival remains accessible at the start.
+
+Modded machines must not provide an immediate alternative to the main progression.
+
+Primitive components must establish the materials needed for Steam.
+
+Steam machines must require infrastructure built during the Primitive Age.
+
+Recipes should create dependencies between materials, machines, power, and automation.
+
+No recipe should require large quantities only to simulate difficulty.
+
+Foundation
+
+Vanilla crafting remains available for basic survival equipment.
+
+Vanilla progression reaches Netherite normally.
+
+Modded technological machines, generators, advanced storage, digital logistics, and high-tier processing are gated.
+
+Primitive Age
+
+Primitive progression begins after the vanilla foundation.
+
+Primitive components should use processed iron, copper, basic steel preparation, and other low-tier materials available before electrical technology.
+
+Primitive recipes should favor manual and semi-automated processing.
+
+The purpose of the Primitive Age is to make the limitations of manual processing visible and create the need for Steam.
+
+Steam Age
+
+Steam is the first major industrial power system.
+
+Steam machines should require Primitive components and infrastructure.
+
+Create mechanical systems become useful for material handling, mechanical processing, transportation, and early automation.
+
+GregTech remains the primary technological progression.
+
+Modern Industrialization supplements the progression without creating a parallel route around GregTech.
+
+First Cross-Mod Dependencies
+
+Early industrial components may combine:
+
+GregTech processed materials
+
+Modern Industrialization machine components
+
+Create mechanical components
+
+Basic infrastructure from vanilla
+
+These dependencies must be introduced gradually.
+
+Progression Integrity
+
+A recipe is progression-breaking if it allows access to a later technological tier without completing the required previous infrastructure.
+
+Any such recipe must be removed or replaced through KubeJS.
+
+Implementation
+
+This matrix is the foundation for the first KubeJS recipe implementation.
+
+The next implementation pass should convert these rules into concrete item and machine recipes, beginning with Primitive components and the first Steam machines.
+
+All recipes must be tested in-game before the next progression layer is added.
