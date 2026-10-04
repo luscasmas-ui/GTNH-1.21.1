@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     'SPS'
   ], {
     S: 'gtceu:steel_plate',
-    P: 'minecraft:iron_plate',
+    P: 'gtceu:iron_plate',
     C: 'kubejs:lv_machine_core'
   });
 
