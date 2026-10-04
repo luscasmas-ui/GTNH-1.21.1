@@ -41,4 +41,8 @@ StartupEvents.registry('item', event => {
   event.create('uv_machine_core')
     .texture('minecraft:item/netherite_ingot')
     .tooltip('§3Core component for Ultra Voltage electrical machinery');
+
+  event.create('uhv_machine_core')
+    .texture('minecraft:item/netherite_ingot')
+    .tooltip('§4Core component for Ultimate High Voltage electrical machinery');
 });
