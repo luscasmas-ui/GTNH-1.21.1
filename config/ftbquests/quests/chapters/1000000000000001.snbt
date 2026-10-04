@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000001"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "minecraft:crafting_table" }
+  id: "1000000000000001"
+  order_index: 0
+  quests: [
+    {
+      id: "A100000000000001"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "B100000000000001" type: "advancement" advancement: "minecraft:story/mine_stone" }]
+      rewards: [{ id: "C100000000000001" type: "xp" xp: 25 }]
+    }
+    {
+      id: "A100000000000002"
+      dependencies: ["A100000000000001"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "B100000000000002" type: "advancement" advancement: "minecraft:story/iron_tools" }]
+      rewards: [{ id: "C100000000000002" type: "xp" xp: 50 }]
+    }
+  ]
+}
