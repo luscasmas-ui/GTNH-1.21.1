@@ -1,0 +1,70 @@
+Current Implementation
+
+The pack has moved from conceptual planning into executable KubeJS implementation.
+
+Implemented
+
+Foundation progression components
+Primitive Engineering Kit
+Steam Engineering Core
+Steam Age Create integration
+Mechanical Press progression gate
+LV Machine Core
+LV machine hull progression gate
+Basic LV circuit progression gate
+
+Architecture
+
+kubejs/startup_scripts contains custom progression components that must exist before recipes load.
+
+kubejs/server_scripts contains recipe integration and progression gates.
+
+Progression direction
+
+Vanilla
+Primitive Age
+Steam Age
+LV
+MV
+HV
+EV
+IV
+LuV
+ZPM
+UV
+UHV
+Post-Endgame
+ProjectE
+Avaritia
+
+Industrial roles
+
+GregTech is the primary electrical and industrial backbone.
+
+Modern Industrialization is complementary and must not provide an alternate route around GregTech.
+
+Create owns early mechanical processing, logistics, and mechanical automation.
+
+Mekanism becomes increasingly important for chemistry, specialized processing, and advanced energy systems.
+
+AE2 becomes the primary high-tier digital logistics and automation layer.
+
+Create Aeronautics and Create Big Cannons become specialized industrial systems integrated into the appropriate tiers.
+
+Implementation policy
+
+Every new progression layer must first establish its materials and infrastructure requirements.
+
+Recipes should create infrastructure requirements rather than arbitrary material inflation.
+
+Automation should solve scale rather than bypass progression.
+
+Cross-mod dependencies should appear where they represent meaningful technological integration.
+
+ProjectE remains post-endgame.
+
+Avaritia remains the final progression system.
+
+Testing requirement
+
+After each major recipe layer is implemented, the pack must be launched and recipes verified in JEI and in actual crafting before the next layer is expanded.
