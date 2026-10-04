@@ -1,0 +1,24 @@
+{
+  filename: "1000000000000010"
+  group: "1B2C3D4E5F607182"
+  icon: { id: "gtceu:zpm_machine_hull" }
+  id: "1000000000000010"
+  order_index: 9
+  quests: [
+    {
+      id: "AA0000000000010"
+      x: 0.0d
+      y: 0.0d
+      tasks: [{ id: "BA0000000000010" type: "item" item: { id: "gtceu:zpm_machine_hull" } }]
+      rewards: [{ id: "CA0000000000010" type: "xp" xp: 3500 }]
+    }
+    {
+      id: "AA0000000000011"
+      dependencies: ["AA0000000000010"]
+      x: 4.0d
+      y: 0.0d
+      tasks: [{ id: "BA0000000000011" type: "item" item: { id: "kubejs:zpm_machine_core" } }]
+      rewards: [{ id: "CA0000000000011" type: "xp" xp: 3750 }]
+    }
+  ]
+}
