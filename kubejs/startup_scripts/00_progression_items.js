@@ -25,4 +25,20 @@ StartupEvents.registry('item', event => {
   event.create('ev_machine_core')
     .texture('minecraft:item/netherite_ingot')
     .tooltip('§5Core component for Extreme Voltage electrical machinery');
+
+  event.create('iv_machine_core')
+    .texture('minecraft:item/netherite_ingot')
+    .tooltip('§3Core component for Insane Voltage electrical machinery');
+
+  event.create('luv_machine_core')
+    .texture('minecraft:item/netherite_ingot')
+    .tooltip('§dCore component for Ludicrous Voltage electrical machinery');
+
+  event.create('zpm_machine_core')
+    .texture('minecraft:item/netherite_ingot')
+    .tooltip('§cCore component for Zero Point Module electrical machinery');
+
+  event.create('uv_machine_core')
+    .texture('minecraft:item/netherite_ingot')
+    .tooltip('§3Core component for Ultra Voltage electrical machinery');
 });
